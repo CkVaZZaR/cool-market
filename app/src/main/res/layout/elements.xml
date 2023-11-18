@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    <TextView-->
+<!--        android:id="@+id/TV"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp">-->
+
+<!--    </TextView>-->
+<!--    <Button-->
+<!--        android:id="@+id/But"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Click">-->
+<!--    </Button>-->
+<!--    <EditText-->
+<!--        android:id="@+id/ET"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:hint="Ввести знак зодиака">-->
+
+<!--    </EditText>-->
+<!--    <CheckBox-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="я ыыыыыыыыыыыыыыыыыыы">-->
+
+<!--    </CheckBox>-->
+<!--    <RadioGroup-->
+<!--        android:id="@+id/RG1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/RB1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="Яблочко">-->
+<!--        </RadioButton>-->
+<!--        <RadioButton-->
+<!--            android:id="@+id/RB2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="Грушка">-->
+<!--        </RadioButton>-->
+<!--    </RadioGroup>-->
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cool Market"
+        android:textSize="70dp"
+        android:gravity="center"
+        android:textColor="@color/green">
+
+    </TextView>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Выберите продукты">
+
+    </TextView>
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/first_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/check_1"
+            android:layout_weight="66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бананчики">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/check_2"
+            android:layout_weight="100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пирожки">
+
+        </CheckBox>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/second_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/check_3"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пиво"
+            android:layout_gravity="center">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/check_4"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Шоколад">
+
+        </CheckBox>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/third_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/check_5"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Коктели"
+            android:layout_gravity="center">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/check_6"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бутерброды"
+            android:layout_gravity="center">
+
+        </CheckBox>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Выберите способ доставки">
+
+    </TextView>
+    <RadioGroup
+        android:id="@+id/RGR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/rad_1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Курьер">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rad_2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дрон">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rad_3"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Самовывоз">
+
+        </RadioButton>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/comment"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите коментарий">
+
+    </EditText>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/BT1"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Заказать">
+
+        </Button>
+        <Button
+            android:id="@+id/BT2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
